@@ -243,7 +243,6 @@ PRODUCT_PACKAGES += \
     sm \
     statsd \
     storaged \
-    surfaceflinger \
     svc \
     task_profiles.json \
     tc \
