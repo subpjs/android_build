@@ -341,8 +341,6 @@ else
 PRODUCT_BOOT_JARS += android.test.base
 endif
 
-PRODUCT_COPY_FILES += system/core/rootdir/init.zygote32.rc:root/init.zygote32.rc
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.zygote=zygote32
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += debug.atrace.tags.enableflags=0
 
